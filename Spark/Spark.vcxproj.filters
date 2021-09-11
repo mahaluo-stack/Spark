@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\OpenGL">
+      <UniqueIdentifier>{1E7D2C1D-8A08-9AE1-9319-1DD6FF23F6E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spark">
+      <UniqueIdentifier>{26081C0E-921C-44BF-5B9E-E71EC77140F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spark\Events">
+      <UniqueIdentifier>{4A4D7E82-36B0-0D27-DF35-46DDCB77D9A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spark\ImGui">
+      <UniqueIdentifier>{D0812FE5-3C37-A8DA-C52B-A2B131E09EDE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.h">
+      <Filter>Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsInput.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark.h" />
+    <ClInclude Include="src\Spark\Application.h">
+      <Filter>Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\Core.h">
+      <Filter>Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\EntryPoint.h">
+      <Filter>Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\Events\ApplicationEvent.h">
+      <Filter>Spark\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\Events\Event.h">
+      <Filter>Spark\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\Events\KeyEvent.h">
+      <Filter>Spark\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\Events\MouseEvent.h">
+      <Filter>Spark\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\ImGui\ImGuiLayer.h">
+      <Filter>Spark\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\Input.h">
+      <Filter>Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\KeyCodes.h">
+      <Filter>Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\Layer.h">
+      <Filter>Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\LayerStack.h">
+      <Filter>Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\Log.h">
+      <Filter>Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\MouseButtonCodes.h">
+      <Filter>Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spark\Window.h">
+      <Filter>Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sppch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp">
+      <Filter>Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsInput.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spark\Application.cpp">
+      <Filter>Spark</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spark\ImGui\ImGuiLayer.cpp">
+      <Filter>Spark\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spark\Layer.cpp">
+      <Filter>Spark</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spark\LayerStack.cpp">
+      <Filter>Spark</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spark\Log.cpp">
+      <Filter>Spark</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sppch.cpp" />
+  </ItemGroup>
+</Project>
